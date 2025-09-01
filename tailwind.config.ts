@@ -18,6 +18,20 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'fredoka': ['Fredoka', 'sans-serif'],
+				'bubblegum': ['Bubblegum Sans', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-magic': 'var(--gradient-magic)',
+				'gradient-rainbow': 'var(--gradient-rainbow)',
+				'gradient-soft': 'var(--gradient-soft)',
+			},
+			boxShadow: {
+				'magic': 'var(--shadow-magic)',
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
